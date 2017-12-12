@@ -1,0 +1,83 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Open Sketch",
+				"id": "stino_sketchbook",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_sketchbook",
+						"command": "stino_refresh_sketchbook"
+					},
+					{
+						"caption": "Change Location...",
+						"id": "stino_change_sketchbook_location",
+						"command": "stino_change_sketchbook_location"
+					},
+					{
+						"caption": "In New Window",
+						"id": "stino_open_in_new_win",
+						"command": "stino_open_in_new_win",
+						"checkbox": true
+					},
+					{
+						"caption": "All Source Files",
+						"id": "stino_open_all_src",
+						"command": "stino_open_all_src",
+						"checkbox": true
+					},
+					{"caption": "-"},					{
+						"caption": "New Sketch...",
+						"id": "stino_new_sketch",
+						"command": "stino_new_sketch"
+					},
+					{"caption": "-"},
+					{
+						"caption": "sketch_nov18a",
+						"id": "stino_sketch_sketch_nov18a",
+						"command": "stino_open_sketch",
+						"args": {"sketch_path": "/home/gtrx/Arduino/sketch_nov18a"}
+					},
+					{
+						"caption": "Arduino",
+						"id": "stino_sketch_Arduino",
+						"command": "stino_open_sketch",
+						"args": {"sketch_path": "/home/gtrx/Arduino/Arduino"}
+					},
+					{
+						"caption": "arduno",
+						"id": "stino_sketch_arduno",
+						"children":
+						[
+						{
+							"caption": "Open",
+							"id": "stino_open_arduno",
+							"command": "stino_open_sketch",
+							"args": {"sketch_path": "/home/gtrx/Arduino/arduno"}
+						},							{"caption": "-"},
+							{
+								"caption": "Release",
+								"id": "stino_sketch_Release",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "core",
+										"id": "stino_sketch_core",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					}
+				]
+			}
+		]
+	}
+]

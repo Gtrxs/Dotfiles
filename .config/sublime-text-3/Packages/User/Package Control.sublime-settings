@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Agila Theme",
+		"Alignment",
+		"Anaconda",
+		"Arduino-like IDE",
+		"Auto Semi-Colon",
+		"AutoFileName",
+		"Boxy Theme",
+		"BracketHighlighter",
+		"Case Conversion",
+		"ColorPicker",
+		"Colorsublime",
+		"DocBlockr",
+		"Emmet",
+		"Gist",
+		"Git",
+		"GitGutter",
+		"JSHint",
+		"Monokai - Spacegray",
+		"Monokai Extended",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Theme - Afterglow",
+		"Theme - Kronuz",
+		"Theme - Monokai Pro",
+		"Wolf Theme"
+	]
+}

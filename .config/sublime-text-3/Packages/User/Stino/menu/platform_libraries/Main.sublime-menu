@@ -1,0 +1,53 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Platform Library",
+				"id": "stino_import_platform_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_platform_libraries",
+						"command": "stino_refresh_platform_libraries"
+					},
+					{"caption": "-"},
+					{
+						"caption": "Wire",
+						"id": "stino_library_Wire",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/gtrx/.arduino15/packages/arduino/hardware/avr/1.6.19/libraries/Wire"}
+					},
+					{
+						"caption": "SPI",
+						"id": "stino_library_SPI",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/gtrx/.arduino15/packages/arduino/hardware/avr/1.6.19/libraries/SPI"}
+					},
+					{
+						"caption": "HID",
+						"id": "stino_library_HID",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/gtrx/.arduino15/packages/arduino/hardware/avr/1.6.19/libraries/HID"}
+					},
+					{
+						"caption": "SoftwareSerial",
+						"id": "stino_library_SoftwareSerial",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/gtrx/.arduino15/packages/arduino/hardware/avr/1.6.19/libraries/SoftwareSerial"}
+					},
+					{
+						"caption": "EEPROM",
+						"id": "stino_library_EEPROM",
+						"command": "stino_import_library",
+						"args": {"library_path": "/home/gtrx/.arduino15/packages/arduino/hardware/avr/1.6.19/libraries/EEPROM"}
+					}
+				]
+			}
+		]
+	}
+]
